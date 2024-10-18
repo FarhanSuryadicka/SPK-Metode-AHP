@@ -1,27 +1,31 @@
-# REQUIREMENTS:
-- Install xampp (download di https://www.apachefriends.org/xampp-files/5.6.37/xampp-win32-5.6.37-0-VC11-installer.exe)
+# REQUIRMENT
+- XAMPP
+- Code Editor
+
+# FIRST
+- Install xampp (jika belum ada)
 - Buka aplikasi xampp, hidupkan Apache dan MySQL
 - Buat folder ahp-crips di c:\xampp\htdocs
-- copy semua isi dari folder ini ke dalam folder ahp-crips
+- copy semua isi dari folder ini ke dalam folder spk_ahp
 
 # IMPORT DATABASE:
 - buka browser, ketikkan http://localhost/phpmyadmin
 - Pilih import (tidak usah buat database baru)
-- Pilih file ahp_crips.sql yang ada di folder database
+- Pilih file spk_ahp.sql yang ada di folder database
 - Klik go untuk mulai import database
 
 # RUNNING PROGRAM
-- Ketikkan http://localhost/Ahp_sub di browser
+- Ketikkan http://localhost/spk_ahp di browser
 - Jika ada dialog login masukkan user dan pass : admin
 
 # CARA UBAH NAMA DATABASE (jika diperlukan)
 - Buka http://localhost/phpmyadmin/ di browser
-- Pilih nama database di panel kiri (ahp_sub)
+- Pilih nama database di panel kiri (spk_ahp)
 - Pilih menu "Operations"
 - Pada kolom isian "Rename database to" Isikan nama database tanpa spasi
 - Klik Go
 
-- Buka file config.php yang ada di c:\xampp\htdocs\Ahp_sub
+- Buka file config.php yang ada di c:\xampp\htdocs\spk_ahp
 - Sesuaikan nama di database_name dengan nama baru yang sudah diubah
 
 # CARA GANTI TEMA:
